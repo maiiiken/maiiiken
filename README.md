@@ -1,6 +1,7 @@
-- Maiken, 24, Oslo.
-- Learning/know: Java, Python, C, PostgreSQL, HTML, CSS, JavaScript.
-- Currently studying computer science at University of Oslo as well as working as a personal assistant
+- Maiken, 24, Oslo
+- Learning/know: Java, Python, C, PostgreSQL, HTML, CSS, JavaScript
+- Currently studying computer science at University
+- Working part-time as a personal assistant
 
 
 <!---
