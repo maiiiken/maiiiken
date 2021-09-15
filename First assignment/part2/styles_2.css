@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(224, 223, 231);
+    
+}
+
+ul {
+    margin: 2vw 0vw 0vw 2vw;
+    font-size: 1vw;
+}
+
+li {
+    margin-top: 0.5vw;
+}
+
+.box {
+    background-color: white;
+    padding: 0.5vw;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box:focus {
+    outline-color: black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#country {
+    margin: 1vw 0.5vw 0vw 2vw;
+    width: 15vw;
+}
+
+#search {
+    margin: 1vw 0.5vw 0vw 2vw;
+    width: 20vw;
+
+}
+
+#button1 {
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    background-color: #b3c4e7;
+    padding: 0.5vw;
+    width: 4vw;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    transition-duration: 0s;
+    border: 0px;
+}
+
+#button1:hover {
+    background-color: #9dacca;
+}
+
+#delete {
+    font-size: 1vw;
+    font-weight: 800;
+    color: #9dacca;
+    border: 0;
+    background: 0;
+    margin-left: 1vw;
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0)
+}
+
+#delete:hover {
+    color: rgb(40, 42, 49);
+}
+
+@media screen and (max-width: 1500px) {
+    .box {
+        padding: 1vw;
+        font-size: 2vw;
+    }
+
+    ul {
+        font-size: 2vw;
+    }
+    
+    #country {
+        margin: 1vw 1vw 0vw 4vw;
+        width: 30vw;
+    }
+    
+    #search {
+        margin: 1vw 1vw 0vw 4vw;
+        width: 40vw;
+    }
+    
+    #button1 {
+        font-size: 2vw;
+        padding: 1vw;
+        width: 8vw;
+    }
+
+    #delete {
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .box {
+        padding: 2vw;
+        font-size: 4vw;
+    }
+
+    ul {
+        font-size: 4vw;
+        margin: 2vw 0vw 0vw 1vw;
+    }
+    
+    #country {
+        margin: 2vw 2vw 0vw 4vw;
+        width: 60vw;
+    }
+    
+    #search {
+        margin: 2vw 2vw 0vw 4vw;
+        width: 80vw;
+    }
+    
+    #button1 {
+        font-size: 4vw;
+        padding: 2vw;
+        width: 16vw;
+    }
+
+    #delete {
+        font-size: 3.5vw;
+    }
+}

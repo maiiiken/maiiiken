@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles_2.css">
+        <title>Mandatory Assignment part 2</title>
+    </head>
+    <body>
+        <main> 
+            <input 
+                type="text" 
+                name="country" 
+                class="box" 
+                id="country" 
+                placeholder="Country" 
+                required>
+            <button 
+                type="button" 
+                id="button1" 
+                onclick="getCountry()">
+                Add
+                </button>
+            <br>
+            <input 
+                type="text" 
+                name="search" 
+                class="box" 
+                id="search" 
+                placeholder="Search" 
+                onkeyup="getSearch()" 
+                required>
+            <ul></ul>
+        </main>
+    </body>
+    <script type="text/javascript" src='script.js'></script>
+</html>
